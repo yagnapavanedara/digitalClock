@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#container{
+    background-color: rgba(79, 188, 99, 0.457);
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 10px 10px 10px -10px -10px 10px black;
+    border-radius: 200px;
+    border: 4px solid rgb(240, 90, 90);
+    z-index: 5;
+}
+#Time,#Date,#Day,#Sec{
+    color: rgba(255, 255, 255, 0.785);
+    /* background-image: radial-gradient(75deg,red,yellow,blue); */
+    /* font-size: 4vw; */
+    text-shadow: 5px 5px 5px black;
+}
+#Time{
+    font-size: 4vw;
+}
+#Date{
+    font-size: 5vw;
+}
+#Day{
+    font-size: 4vw;
+}#Sec{
+    position: absolute;
+    color: rgba(255, 0, 255, 0.653);
+    font-size: 25vw;
+}
